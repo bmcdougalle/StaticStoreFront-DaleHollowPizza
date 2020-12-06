@@ -121,6 +121,7 @@ header img {
     border-radius: 40%;
     margin-top: -170px;
     margin-left: 650px;
+    z-index: 2;
 }
 header h1 {
     text-align: center;
