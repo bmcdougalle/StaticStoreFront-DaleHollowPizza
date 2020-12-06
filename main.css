@@ -81,6 +81,7 @@ p {
   }
   
   .dropContent {
+      background-color: white;
     display: none;
     position: absolute;
     z-index: 2;
