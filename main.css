@@ -1,0 +1,225 @@
+
+body {
+    font-size: 75%;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #39150C url(images/background1.jpg) no-repeat fixed top center;
+     padding: 0;
+     margin: 0;
+     -webkit-background-size: 100% 100%;
+     -moz-background-size: 100% 100%;
+     background-size: 100% 100%;
+     -o-background-size: 100% 100%;
+}
+h1 {
+    font-size: 2.5em;
+    margin: 0.5 0 0.5 0;
+    padding: 0px;
+    color: rebeccapurple;
+}
+h2{
+    font-size: 1.75em;
+    margin: 0.5 0 0.35 0;
+    padding: 0px;
+    color: slateblue;
+}
+p {
+    display: block;
+    color: slategray;
+    font-size: 1.5;
+    margin: 0.5 0 0.35 0;
+    padding: 0px;
+}
+/*drop menu css */
+.dropDown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropBtn {
+    background-color: red;
+    padding: 10px;
+  }
+  
+  .dropContent {
+    display: none;
+    position: absolute;
+    z-index: 2;
+  }
+  
+  .dropDown:hover .dropContent {
+    display:block;
+  }
+  /*2nd button */
+  .dropDown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropBtn {
+    background-color: red;
+    padding: 10px;
+  }
+  
+  .dropContent {
+    display: none;
+    position: absolute;
+    z-index: 2;
+  }
+  
+  .dropDown:hover .dropContent {
+    display:block;
+  }
+ /*3rd dropbutton */
+ .dropDown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropBtn {
+    background-color: red;
+    padding: 10px;
+  }
+  
+  .dropContent {
+    display: none;
+    position: absolute;
+    z-index: 2;
+  }
+  
+  .dropDown:hover .dropContent {
+    display:block;
+  }
+.contentWrapper {
+    margin-top: 0px;
+    max-width: 1170px;
+    padding: 0 2.0em;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+/*Header*/
+header {
+    border-bottom: firebrick solid 2px;
+    padding: 2.5em 0 0.5em;
+    margin: 30px 0 30px;
+
+}
+header img {
+    position: relative;
+    border-style: hidden;
+    border-radius: 40%;
+    margin-top: -170px;
+    margin-left: 650px;
+}
+header h1 {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: coral;
+    font-size: 6.5em;
+    margin: 0 0 0 160px;
+    letter-spacing: -0.105em;
+}
+header h2 {
+    text-align: center;
+    font-family: Arial, "Helvetica", sans-serif;
+    font-size: 5.0em;
+    text-transform: uppercase;
+    color: coral;
+    margin: 20px 0 0 240px; 
+    letter-spacing: -.055em;
+}
+
+/*Nav Bars*/
+
+nav#contactMenu {
+    float: right;
+    color: rgb(224, 92, 92);
+    font-size: 1.7em;
+    letter-spacing: 0.04em;
+}
+nav ul {
+    position: relative;
+    margin-top: 140px;
+    margin-bottom: 0px;
+    margin-left: -320px;
+    padding: 0px;
+    list-style: none;
+}
+.menuItems {
+    display: inline;
+    margin: 0-20;
+}
+nav li a, nav li a:visited {
+    text-decoration: none;
+    color: #C64322;
+    padding: 0.3em 0.6em;
+}
+nav li a:hover {
+    color: #C64322;
+    background-color: rgba(252,251,243,0.75);
+}
+
+/*Sidebar Section*/
+section#aboutPizza {
+    width: 300px;
+    float: left;
+    position: relative;
+    border-right: black solid 5px;
+    display: block;
+    margin: 1.5em 0 3.0em 1.5em;
+    padding: 1.7em 0.5em 2.0em 1.7em;
+}
+section h2 {
+    margin-top: 80px;
+    display: block;
+    font-family: fantasy;
+}
+
+section p {
+    word-wrap: break-word;
+    margin: 0;
+    font-size: 1.5em;
+    font-family: monospace;
+}
+/*Main Section*/
+#optionsContainer {
+    align-content: center;
+    border-style: rgb(0, 0, 0) solid 10px;
+    margin-left: 400px;
+}
+.vitalInfo {
+    background-color: darksalmon;
+    border: rgb(41, 142, 209) solid 3px;
+    border-radius: 35%;
+    display: inline-block;
+    width: 150px;
+    margin: 20px;
+    margin-right: 100px;
+    padding-left: -1px;
+    padding: 6em;
+}
+.vitalInfo h2 {
+    padding-left: -10px;
+}
+.vitalInfo img {
+    margin-left: 50px;
+    margin-top: -165px;
+    z-index: 2;
+}
+
+/*Footer*/
+footer {
+    text-align: center;
+    width: 100%;
+    display: block;
+    margin: 100px auto;
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#footerlinks {
+    break-after: right;
+
+}
